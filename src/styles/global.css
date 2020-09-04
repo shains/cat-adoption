@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(181, 204, 231);
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+img {
+    width: 15%;
+    height: 15%;
+  }
+
+div {
+    text-align:center;
+    font-size: 60px;
+}
