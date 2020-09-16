@@ -1,20 +1,34 @@
 .cat {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
     margin: 0 12px;
     background-color: rgb(250, 248, 239);
     padding: 10px;
     border-radius: 15px;
-    font-size: 15px;
+    font-size: 10px;
+    line-height: 1px;
   }
 
-h2 {
-    font-family: 'Roboto', sans-serif;
+.cat h2,
+.cat h3 {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+}
+
+.cat h1 {
+    font-size: 1.5em;
+}  
+
+.cat h2 {
+    
     color:rgb(16, 61, 36);
+    font-size: 1.3em;
   }
 
-h3 {
-    font-family: 'Roboto', sans-serif;
+.cat h3 {
     color:rgb(16, 61, 36);
+    font-size: 1.3em;
   }

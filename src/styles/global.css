@@ -1,14 +1,21 @@
 html {
-    background-color: rgb(181, 204, 231);
+    background-color: #c0caa8;
     font-family: 'Source Sans Pro', sans-serif;
   }
 
+main  {
+  background-color: #c0caa8;
+}
 img {
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
+    /* min-Width: '20%';
+    max-Width: 500;
+    min-Height: '10%';
+    max-Height: 150; */
   }
 
 div {
     text-align:center;
-    font-size: 60px;
+    
 }
